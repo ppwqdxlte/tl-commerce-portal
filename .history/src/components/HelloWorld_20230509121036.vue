@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2023-05-06 12:00:11
  * @LastEditors: error: git config user.name & please set dead value or install git
- * @LastEditTime: 2023-05-09 12:26:57
+ * @LastEditTime: 2023-05-09 12:10:36
  * @Description: file content
 -->
 <script setup lang="ts">
@@ -16,11 +16,9 @@ defineProps<{
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project with
-      <!-- router-link有缓存，不会整个刷 -->
-      <router-link to="/tuning">tnmall</router-link> +
-      <!-- 这个普通的a标签会重新刷新整个页面 -->
+      <a href="/#/tun" target="_self" rel="noopener">途宁</a> +
       <a href="/tuning" target="_self" rel="noopener">途宁</a> +
-      <a href="#" target="_self" rel="noopener">广告位</a>
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>
     </h3>
   </div>
 </template>
